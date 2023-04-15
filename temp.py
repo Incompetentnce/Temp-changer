@@ -26,7 +26,7 @@ def main():
 
 #size = Canvas(root, width=500, height=500)
 #size.pack()
-button = tk.Button(root, text="Press Me", command=run_main)
+button = tk.Button(root, text="Temperature Converter", bg="blue", fg="white", command=run_main)
 button_end = tk.Button(root, text="Close", bg="red", fg="white", font="bold", width=5, height=1, command=root.destroy)
 button.pack()
 button_end.pack()
